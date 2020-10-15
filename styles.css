@@ -1,0 +1,719 @@
+/*For the entire webpage*/
+body {
+    background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+	/*background-color: #f5f5dc;*/
+}
+
+/*For the slideshow*/
+* {box-sizing: border-box;}
+.mySlides {
+    /*display: none;*/ 
+    text-align:center;
+    /*float: right;*/
+    
+}
+.mySlides a{
+    /*display: none;*/ 
+    text-align:center;
+    /*float: right;*/
+    
+}
+img {vertical-align: middle;}
+div.container{
+background-color: #98f5ff;
+}
+.slideshow-container{
+max-width: 1000px;
+text-align: center;
+position: relative;
+margin: auto;
+/*float: right;*/
+}
+.slideshow-container a{
+max-width: 1000px;
+text-align: center;
+position: relative;
+margin: auto;
+/*float: right;*/
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/*Header*/
+div.header{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+}
+div.header a{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+border: 10px solid #734500;
+border-radius: 12px;
+color: #734500;
+cursor: pointer;
+text-align: center;
+font-family: Times;
+font-size: 96px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+div.header h1{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*border: 12px solid #734500;
+border-radius: 12px;*/
+color: #734500;
+cursor: pointer;
+text-align: center;
+font-family: Times;
+font-size: 96px;
+font-style: normal;
+font-weight: bold;
+text-transform: none; 
+}
+
+/*Heading*/
+div.heading{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+}
+div.heading a{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*border: 3px solid #734500;*/
+/*border-radius: 3px;*/
+color: #734500;
+/*cursor: pointer;*/
+font-family: Times;
+font-size: 48px;
+font-style: normal;
+font-weight: normal;
+margin-bottom: 1px;
+text-align: center;
+text-transform: none; 
+}
+div.heading h2{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*border: 9px solid #734500;*/
+/*border-radius: 9px;*/
+color: #734500;
+/*cursor: pointer;*/
+text-align: center;
+font-family: Times;
+font-size: 24px;
+font-style: normal;
+font-weight: bold;
+text-transform: none; 
+}
+div.heading h3{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*border: 9px solid #734500;*/
+/*border-radius: 9px;*/
+color: #734500;
+/*cursor: pointer;*/
+text-align: center;
+font-family: Times;
+font-size: 18px;
+font-style: normal;
+font-weight: bold;
+text-transform: none; 
+}
+div.heading li{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*border: 3px solid #734500;*/
+/*border-radius: 3px;*/
+color: #734500;
+/*cursor: pointer;*/
+text-align: center;
+font-family: Times;
+font-size: 9px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+div.heading p{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*border: 3px solid #734500;*/
+/*border-radius: 3px;*/
+color: #734500;
+/*cursor: pointer;*/
+text-align: center;
+font-family: Times;
+font-size: 48px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+
+/*Nav pane*/
+div.navpane{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*border: 3px solid #734500;*/
+/*border-radius: 3px;*/
+float: left;
+margin-right: 25px;
+max-width: 22%;
+width: auto;
+}
+div.navpane a{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*border: 3px solid #734500;*/
+/*border-radius: 3px;*/
+color: #734500;
+cursor: pointer;
+text-align: left;
+font-family: Times;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+div.navpane p{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*border: 3px solid #734500;*/
+/*border-radius: 3px;*/
+color: #734500;
+cursor: pointer;
+text-align: left;
+font-family: Times;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+
+/*Nav pane selected attribute*/
+div.navpaneSelect{
+background-color: #f5f5dc;
+/*border: 3px solid #734500;*/
+/*border-radius: 3px;*/
+float: left;
+margin-right: 25px;
+max-width: 22%;
+width: auto;
+}
+div.navpaneSelect a{
+background-color: #734500;
+/*border: 3px solid #734500;*/
+/*border-radius: 3px;*/
+color: #f5f5dc;
+cursor: pointer;
+text-align: left;
+font-family: Times;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+div.navpaneSelect p{
+background-color: #734500;
+/*border: 3px solid #734500;*/
+/*border-radius: 3px;*/
+color: #f5f5dc;
+cursor: pointer;
+text-align: left;
+font-family: Times;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+
+/*Nav pane sub*/
+div.navpanesub{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+border: 3px solid #734500;
+border-radius: 3px;
+float: left;
+margin-right: 10px;
+max-width: 22%;
+width: auto;
+}
+div.navpanesub a{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*border: 3px solid #734500;*/
+/*border-radius: 3px;*/
+color: #734500;
+cursor: pointer;
+text-align: left;
+font-family: Times;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+div.navpanesub p{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*border: 3px solid #734500;*/
+/*border-radius: 3px;*/
+color: #734500;
+cursor: pointer;
+text-align: left;
+font-family: Times;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+
+/*Nav pane sub select*/
+div.navpanesubSelect{
+background-color: #f5f5dc;
+/*border: 3px solid #734500;
+border-radius: 3px;
+float: left;*/
+margin-right: 10px;
+max-width: 22%;
+width: auto;
+}
+div.navpanesubSelect a{
+background-color: #734500;
+/*border: 3px solid #734500;*/
+/*border-radius: 3px;*/
+color: #f5f5dc;
+cursor: pointer;
+text-align: left;
+font-family: Times;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+div.navpanesubSelect p{
+background-color: #734500;
+/*border: 3px solid #734500;*/
+/*border-radius: 3px;*/
+color: #f5f5dc;
+cursor: pointer;
+text-align: left;
+font-family: Times;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+
+div.ad{
+/*border: 1px solid #734500;*/
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+float: right;
+max-width: 22%;
+width: auto;
+}
+div.ad a{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+color: #734500;
+cursor: pointer;
+text-align: right;
+font-family: Times;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+text-transform: none;
+/*float: right;*/
+}
+div.ad p{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+color: #734500;
+cursor: pointer;
+text-align: right;
+font-family: Times;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+
+div.blog{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+border: 1px solid #734500;
+color: #734500;
+font-family: Times;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+text-transform: none;    
+}
+
+div.blog-header{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+border: 1px solid #734500;
+color: #734500;
+font-family: Times;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+text-transform: none;    
+}
+
+div.blog-header h3{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+color: #734500;
+font-family: Times;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+text-transform: none;    
+}
+
+div.blog-header p{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+color: #734500;
+font-family: Times;
+font-size: 18px;
+font-style: normal;
+font-weight: normal;
+text-transform: none;    
+}
+
+div.blog p{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+color: #734500;
+font-family: Times;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+text-transform: none;    
+}
+
+div.comments{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+border: 1px solid #734500;
+color: #734500;
+font-family: Times;
+font-style: normal;
+font-weight: normal;
+text-transform: none;    
+}
+
+div.comments h4{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+color: #734500;
+font-family: Times;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+text-transform: none;    
+}
+
+div.comments p{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+color: #734500;
+font-family: Times;
+font-size: 10px;
+font-style: normal;
+font-weight: normal;
+text-transform: none;    
+}
+
+div.replies{
+margin-left: 10px;
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+border: 1px solid #734500;
+color: #734500;
+font-family: Times;
+font-style: normal;
+font-weight: normal;
+text-transform: none;    
+}
+
+div.replies h5{
+margin-left: 10px;
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+color: #734500;
+font-family: Times;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+text-transform: none;    
+}
+
+div.replies p{
+margin-left: 10px;
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+color: #734500;
+font-family: Times;
+font-size: 10px;
+font-style: normal;
+font-weight: normal;
+text-transform: none;    
+}
+
+/*Main body*/
+div.main{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*float: left;*/
+}
+div.main a{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+border: 3px solid #734500;
+border-radius: 3px;
+color: #734500;
+cursor: pointer;
+text-align: center;
+/*float: left;*/
+font-family: Times;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+margin-right: 100px;
+text-transform: none; 
+}
+/*div.main a2{
+background-color: #f5f5dc;
+border: 3px solid #734500;
+border-radius: 3px;
+color: #734500;
+cursor: pointer;
+text-align: center;
+float: right;
+font-family: Times;
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}*/
+div.main form{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*border: 3px solid #734500;*/
+/*border-radius: 3px;*/
+color: #734500;
+cursor: pointer;
+text-align: left;
+font-family: Times;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+div.main img{
+/*float: left;*/
+width: auto;
+height: auto;
+max-width: 55%;
+max-height: 42%;
+}
+div.main input{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*border: 3px solid #734500;*/
+/*border-radius: 3px;*/
+color: #734500;
+cursor: pointer;
+text-align: left;
+font-family: Times;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+div.main option{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*border: 3px solid #734500;*/
+/*border-radius: 3px;*/
+color: #734500;
+cursor: pointer;
+text-align: left;
+font-family: Times;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+div.main p{
+/*float: left;*/
+width: auto;
+/*height: auto;*/
+max-width: 100%;
+/*max-height: 100%;*/
+}
+/*div.main p{
+background-color: #f5f5dc;
+border: 3px solid #734500;
+border-radius: 3px;
+color: #734500;
+cursor: pointer;
+text-align: center;
+font-family: Times;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}*/
+div.main select{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*border: 3px solid #734500;*/
+/*border-radius: 3px;*/
+color: #734500;
+cursor: pointer;
+text-align: left;
+font-family: Times;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+div.main table{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+border: 3px solid #734500;
+border-radius: 3px;
+color: #734500;
+cursor: pointer;
+text-align: center;
+font-family: Times;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+div.main td{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+border: 3px solid #734500;
+border-radius: 3px;
+color: #734500;
+cursor: pointer;
+text-align: center;
+font-family: Times;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+div.main textarea{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*border: 3px solid #734500;*/
+/*border-radius: 3px;*/
+color: #734500;
+cursor: pointer;
+text-align: left;
+font-family: Times;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+div.main th{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+border: 3px solid #734500;
+border-radius: 3px;
+color: #734500;
+cursor: pointer;
+text-align: center;
+font-family: Times;
+font-size: 12px;
+font-style: normal;
+font-weight: bold;
+text-transform: none; 
+}
+div.main tr{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+border: 12px solid #734500;
+border-radius: 12px;
+color: #734500;
+cursor: pointer;
+text-align: center;
+font-family: Times;
+font-size: 12px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+
+/*Footer*/
+div.footer{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*float: bottom;*/
+}
+div.footer p{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*border: 12px solid #734500;*/
+/*border-radius: 12px;*/
+color: #734500;
+/*cursor: pointer;*/
+text-align: center;
+font-family: Times;
+font-size: 9px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
+div.footer a{
+background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=c7af4dff&noise=996214&density=26&opacity=47);
+/*background-color: #f5f5dc;*/
+/*border: 12px solid #734500;*/
+/*border-radius: 12px;*/
+color: #734500;
+/*cursor: pointer;*/
+text-align: center;
+font-family: Times;
+font-size: 9px;
+font-style: normal;
+font-weight: normal;
+text-transform: none; 
+}
